@@ -1,0 +1,187 @@
+---
+title: "SVHM ICU Publications Dashboard"
+format:
+  html:
+    theme: cosmo
+editor: visual
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(zoo)
+library(ggplot2)
+library(DT)
+
+# Shared plot theme
+plot_theme <- theme_minimal(base_size = 13) +
+  theme(
+    plot.title  = element_text(size = 16, face = "bold"),
+    axis.title  = element_text(size = 13),
+    axis.text   = element_text(size = 11)
+  )
+
+# ----------------------------
+# Load data
+# ----------------------------
+pubs_all    <- read_csv("data/pubs_all.csv", show_col_types = FALSE)
+pubs_latest <- read_csv("data/pubs_latest.csv", show_col_types = FALSE)
+
+# ----------------------------
+# Parse PubMed sort date
+# ----------------------------
+parse_sort_date <- function(x) {
+  x <- str_trim(as.character(x))
+  x <- str_replace_all(x, "/", "-")
+  x <- ifelse(
+    grepl("^\\d{8}$", x),
+    paste0(substr(x, 1, 4), "-", substr(x, 5, 6), "-", substr(x, 7, 8)),
+    x
+  )
+  suppressWarnings(as.Date(x))
+}
+
+pubs_all <- pubs_all %>%
+  mutate(
+    sort_date = parse_sort_date(sortpubdate),
+    pub_year  = year(sort_date),
+    month     = floor_date(sort_date, "month"),
+    Title     = ifelse(
+      !is.na(pubmed_url) & pubmed_url != "",
+      paste0("<a href='", pubmed_url, "' target='_blank'>", title, "</a>"),
+      title
+    )
+  ) %>%
+  filter(!is.na(sort_date))
+
+pubs_latest <- pubs_latest %>%
+  mutate(
+    sort_date = parse_sort_date(sortpubdate),
+    Title     = ifelse(
+      !is.na(pubmed_url) & pubmed_url != "",
+      paste0("<a href='", pubmed_url, "' target='_blank'>", title, "</a>"),
+      title
+    )
+  )
+
+# ============================================================
+# METRICS
+# ============================================================
+
+last_complete_year <- year(Sys.Date()) - 1
+
+total_last_year <- pubs_all %>%
+  filter(pub_year == last_complete_year) %>%
+  nrow()
+
+monthly <- pubs_all %>%
+  count(month, name = "n") %>%
+  arrange(month) %>%
+  mutate(
+    cumulative = cumsum(n),
+    roll12 = if (n() >= 12) rollapply(n, 12, sum, align = "right", fill = NA) else NA_real_
+  )
+
+latest_12m_total <- tail(na.omit(monthly$roll12), 1)
+latest_12m_total <- if (length(latest_12m_total) == 1) latest_12m_total else NA_real_
+```
+
+```{r kpi, echo=FALSE, results='asis'}
+kpi_style <- "
+font-size:1.6em;
+font-weight:bold;
+padding:0.75em;
+background-color:#f5f5f5;
+border-radius:8px;
+margin-bottom:0.75em;
+"
+
+kpi_html <- sprintf(
+  "<div style='display:flex;gap:1em;flex-wrap:wrap;'>
+     <div style='%s;flex:1;min-width:280px;'>
+       Publications in the last 12 months: %s
+     </div>
+     <div style='%s;flex:1;min-width:280px;'>
+       Total publications in %s: %s
+     </div>
+   </div>",
+  kpi_style,
+  ifelse(is.na(latest_12m_total), 'NA', latest_12m_total),
+  kpi_style,
+  last_complete_year,
+  total_last_year
+)
+
+knitr::asis_output(kpi_html)
+```
+
+```{r monthly_chart, echo=FALSE, warning=FALSE, message=FALSE}
+
+monthly_last_year <- monthly %>%
+  filter(year(month) == last_complete_year)
+
+if (nrow(monthly_last_year) > 0) {
+  ggplot(monthly_last_year, aes(x = month, y = n)) +
+    geom_line(linewidth = 1.2) +
+    geom_point(size = 2.5) +
+    scale_x_date(date_breaks = "1 month", date_labels = "%b") +
+    labs(
+      title = paste0("Publications per Month (", last_complete_year, ")"),
+      x = "Month",
+      y = "Number of publications"
+    ) +
+    plot_theme
+} else {
+  cat(paste0("No publications found for ", last_complete_year, ".\n\n"))
+}
+```
+
+```{r cumulative_chart, echo=FALSE}
+ggplot(monthly, aes(x = month, y = cumulative)) +
+  geom_line(linewidth = 1.1) +
+  geom_point(size = 2) +
+  labs(
+    title = "Cumulative publications over time",
+    x = "Month",
+    y = "Cumulative publications"
+  ) +
+  plot_theme
+```
+
+### Newest publications
+
+```{r latest_table, echo=FALSE}
+datatable(
+  pubs_latest %>%
+    arrange(desc(sort_date), title) %>%
+    transmute(
+      `Publication date` = pubdate,
+      `First author`     = first_author,
+      Title              = Title
+    ),
+  escape   = FALSE,
+  rownames = FALSE,
+  options  = list(pageLength = 10, autoWidth = TRUE)
+)
+```
+
+### All publications
+
+```{r all_table, echo=FALSE}
+datatable(
+  pubs_all %>%
+    arrange(desc(sort_date), title) %>%
+    transmute(
+      `Publication date` = pubdate,
+      `First author`     = first_author,
+      Title              = Title
+    ),
+  escape   = FALSE,
+  rownames = FALSE,
+  options  = list(pageLength = 10, autoWidth = TRUE)
+)
+```
+
+

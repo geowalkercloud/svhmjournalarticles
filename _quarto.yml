@@ -1,0 +1,13 @@
+project:
+  type: website
+
+website:
+  title: "Journal Articles"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Dashboard
+
+format:
+  html:
+    theme: cosmo
