@@ -1,5 +1,7 @@
 sortpubdate,pubdate,first_author,title,pmid,pubmed_url
 2026/02/01 00:00,2026 Feb,Brown A,Death and new disability following bleeding complications during venoarterial extracorporeal membrane oxygenation. A prospective cohort study from the EXCEL registry.,41101139,https://pubmed.ncbi.nlm.nih.gov/41101139/
+2026/01/22 00:00,2026 Jan 22,Hikasa Y,A Multicentre Observational Study of Prothrombin Complex Concentrate Therapy in Cardiac Surgery Patients.,41577588,https://pubmed.ncbi.nlm.nih.gov/41577588/
+2026/01/19 00:00,2026 Jan 19,Haydon T,"Proportionality and the process of decision-making around ICU admission: A narrative review of the ethical complexities of navigating from ""can"" to ""ought"".",41558097,https://pubmed.ncbi.nlm.nih.gov/41558097/
 2026/01/01 00:00,2026 Jan,Walker HGM,Factors associated with resource-intensive planned critical care admissions after elective surgery in patients with a planned admission to the intensive care unit.,41330799,https://pubmed.ncbi.nlm.nih.gov/41330799/
 2026/01/01 00:00,2026 Jan 1,Brown A,Neurologic Complications During Venoarterial Extracorporeal Membrane Oxygenation and Their Implications for 6-Month Patient-Centered Outcomes.,41212045,https://pubmed.ncbi.nlm.nih.gov/41212045/
 2025/12/07 00:00,2025,Vora A,"Acute Massive Hydroxychloroquine Overdose of 60 g in an Adult, Successfully Resuscitated: A Successful Salvage.",41367411,https://pubmed.ncbi.nlm.nih.gov/41367411/
@@ -14,6 +16,7 @@ sortpubdate,pubdate,first_author,title,pmid,pubmed_url
 2025/09/27 00:00,2025 Oct,van Haren FMP,Efficacy of inhaled nebulised unfractionated heparin to prevent intubation or death in hospitalised patients with COVID-19: an investigator-initiated international meta-trial of randomised clinical studies.,41181828,https://pubmed.ncbi.nlm.nih.gov/41181828/
 2025/09/01 00:00,2025 Sep,Duke GJ,Clinically meaningful categorisation of ICD-10-AM (Australian modification).,39563104,https://pubmed.ncbi.nlm.nih.gov/39563104/
 2025/07/01 00:00,2025 Jul,Smith RJ,"A randomised, open-label trial of nebulised unfractionated heparin in patients mechanically ventilated for COVID-19.",40148075,https://pubmed.ncbi.nlm.nih.gov/40148075/
+2025/05/26 00:00,2025 May 26,Smit C,Experiences and Perceptions of Registered Nurses Who Work in Acute Care Regarding Incident Reporting: A Scoping Review.,40508864,https://pubmed.ncbi.nlm.nih.gov/40508864/
 2025/05/01 00:00,2025 May,Brown A,Beta-blockade for the treatment of refractory hypoxaemia during venovenous extracorporeal membrane oxygenation: An in-silico study.,38881099,https://pubmed.ncbi.nlm.nih.gov/38881099/
 2025/05/01 00:00,2025 May,Aubron C,The impact of red blood cells storage duration on the development of acute kidney injury: A secondary analysis of the TRANSFUSE multicenter randomized controlled trial.,40156299,https://pubmed.ncbi.nlm.nih.gov/40156299/
 2025/04/22 00:00,2025 Apr 22,Walker HG,"Early fluid balance and mortality following extracorporeal cardiopulmonary resuscitation: a high volume, single center study.",40264208,https://pubmed.ncbi.nlm.nih.gov/40264208/
@@ -36,41 +39,63 @@ sortpubdate,pubdate,first_author,title,pmid,pubmed_url
 2023/10/18 00:00,2021 Sep 6,Duke GJ,Hospital-acquired complications in critically ill patients.,38046077,https://pubmed.ncbi.nlm.nih.gov/38046077/
 2023/09/14 00:00,2023 Sep 14,Moran JL,Modelling of intensive care unit (ICU) length of stay as a quality measure: a problematic exercise.,37710162,https://pubmed.ncbi.nlm.nih.gov/37710162/
 2023/09/11 00:00,2023 Sep,Paratz ED,Right ventricular pneumatosis and extensive multi-territory air emboli in an intravenous drug user: a case report.,38073677,https://pubmed.ncbi.nlm.nih.gov/38073677/
+2023/07/01 00:00,2023 Jul-Aug,Kam JKP,Outcomes after inter-hospital transfer of intensive care patients with haemorrhagic stroke: a 5-year retrospective review.,36947603,https://pubmed.ncbi.nlm.nih.gov/36947603/
 2023/01/24 00:00,2023,Dixon B,Assessment of a Non-Invasive Brain Pulse Monitor to Measure Intra-Cranial Pressure Following Acute Brain Injury.,36718229,https://pubmed.ncbi.nlm.nih.gov/36718229/
+2022/10/01 00:00,2022 Oct 1,Poole AP,"The Effect of a Liberal Approach to Glucose Control in Critically Ill Patients with Type 2 Diabetes: A Multicenter, Parallel-Group, Open-Label Randomized Clinical Trial.",35608484,https://pubmed.ncbi.nlm.nih.gov/35608484/
 2022/08/26 00:00,2022,Khan I,Evolving mortality rates in people who inject drugs: An Australian tertiary hospital observational study on infective endocarditis.,36018847,https://pubmed.ncbi.nlm.nih.gov/36018847/
 2022/07/01 00:00,2022 Jul,van Haren FMP,Can nebulised HepArin Reduce morTality and time to Extubation in patients with COVID-19 Requiring invasive ventilation Meta-Trial (CHARTER-MT): Protocol and statistical analysis plan for an investigator-initiated international meta-trial of prospective randomised clinical studies.,35106809,https://pubmed.ncbi.nlm.nih.gov/35106809/
 2022/06/01 00:00,2022 Jun,van Haren FMP,Inhaled nebulised unfractionated heparin for the treatment of hospitalised patients with COVID-19: A multicentre case series of 98 patients.,34984714,https://pubmed.ncbi.nlm.nih.gov/34984714/
 2022/01/01 00:00,2022 Jan,Halliday AJ,Pre-hospital benzodiazepines associated with improved outcomes in out-of-hospital status epilepticus: A 10-year retrospective cohort study.,34954464,https://pubmed.ncbi.nlm.nih.gov/34954464/
+2021/10/01 00:00,2021 Oct,Huang P,The risk of hepatitis C virus recurrence in hepatitis C virus-infected patients treated with direct-acting antivirals after achieving a sustained virological response: A comprehensive analysis.,34051040,https://pubmed.ncbi.nlm.nih.gov/34051040/
 2021/08/01 00:00,2021 Aug,van Haren FMP,INHALEd nebulised unfractionated HEParin for the treatment of hospitalised patients with COVID-19 (INHALE-HEP): Protocol and statistical analysis plan for an investigator-initiated international metatrial of randomised studies.,33377218,https://pubmed.ncbi.nlm.nih.gov/33377218/
 2021/06/21 00:00,2021 Jun 21,Moran JL,Modelling hospital outcome: problems with endogeneity.,34154530,https://pubmed.ncbi.nlm.nih.gov/34154530/
 2021/04/01 00:00,2021 Apr,Dixon B,"Nebulised heparin for patients with or at risk of acute respiratory distress syndrome: a multicentre, randomised, double-blind, placebo-controlled phase 3 trial.",33493448,https://pubmed.ncbi.nlm.nih.gov/33493448/
+2021/03/01 00:00,2021 Mar-Apr,Ross P,The Australian and New Zealand Clinician Educator Network (ANZCEN) Unconference: What's an unconference and how can it develop communities of practice?,32233894,https://pubmed.ncbi.nlm.nih.gov/32233894/
 2021/02/02 00:00,2021 Feb 2,Fujii T,Incidence and management of metabolic acidosis with sodium bicarbonate in the ICU: An international observational study.,33531020,https://pubmed.ncbi.nlm.nih.gov/33531020/
 2021/02/01 00:00,2021 Feb,Duke GJ,Safety of the endotracheal tube for prolonged mechanical ventilation.,33161243,https://pubmed.ncbi.nlm.nih.gov/33161243/
+2020/12/05 00:00,2020 Dec 5,Duke GJ,Sepsis.,33278932,https://pubmed.ncbi.nlm.nih.gov/33278932/
 2020/10/06 00:00,2020 Oct 6,Angus DC,Effect of Hydrocortisone on Mortality and Organ Support in Patients With Severe COVID-19: The REMAP-CAP COVID-19 Corticosteroid Domain Randomized Clinical Trial.,32876697,https://pubmed.ncbi.nlm.nih.gov/32876697/
 2020/07/22 00:00,2020 Jul 22,van Haren FMP,Nebulised heparin as a treatment for COVID-19: scientific rationale and a call for randomised evidence.,32698853,https://pubmed.ncbi.nlm.nih.gov/32698853/
+2020/06/01 00:00,2020 Jun,Poole AP,Study protocol and statistical analysis plan for the Liberal Glucose Control in Critically Ill Patients with Pre-existing Type 2 Diabetes (LUCID) trial.,32389105,https://pubmed.ncbi.nlm.nih.gov/32389105/
 2020/04/01 00:00,2020 Apr,Duke GJ,Sepsis in the new millennium - Are we improving?,32001425,https://pubmed.ncbi.nlm.nih.gov/32001425/
 2020/03/25 00:00,2020 Mar 25,Glas GJ,Nebulized Heparin in Burn Patients with Inhalation Trauma-Safety and Feasibility.,32218127,https://pubmed.ncbi.nlm.nih.gov/32218127/
+2019/10/15 00:00,2019 Oct 15,Schmidt M,Mechanical Ventilation Management during Extracorporeal Membrane Oxygenation for Acute Respiratory Distress Syndrome. An International Multicenter Prospective Cohort.,31144997,https://pubmed.ncbi.nlm.nih.gov/31144997/
 2019/10/01 00:00,2019 Oct,Darvall JN,Frailty in very old critically ill patients in Australia and New Zealand: a population-based cohort study.,31489652,https://pubmed.ncbi.nlm.nih.gov/31489652/
+2019/09/01 00:00,2019 Sep,Poole AP,Opinions and practices of blood glucose control in critically ill patients with pre-existing type 2 diabetes in Australian and New Zealand intensive care units.,30348487,https://pubmed.ncbi.nlm.nih.gov/30348487/
 2019/08/01 00:00,2019 Aug,Smith RJ,Frailty is associated with reduced prospect of discharge home after in-hospital cardiac arrest.,30411470,https://pubmed.ncbi.nlm.nih.gov/30411470/
+2019/03/01 00:00,2019 Mar,O'Brien DE,A novel biometric approach to estimating tidal volume.,30857509,https://pubmed.ncbi.nlm.nih.gov/30857509/
 2018/07/01 00:00,2018 Jul,Santamaria J,Increasing the Number of Medical Emergency Calls Does Not Improve Hospital Mortality.,29601313,https://pubmed.ncbi.nlm.nih.gov/29601313/
 2018/06/01 00:00,2018 Jun,Eyeington CT,Ventilation management in Victorian intensive care unit patients without acute respiratory distress syndrome.,29852848,https://pubmed.ncbi.nlm.nih.gov/29852848/
 2018/05/01 00:00,2018 May,Lee MH,Diabetic ketoacidosis in adult patients: an audit of factors influencing time to normalisation of metabolic parameters.,29316133,https://pubmed.ncbi.nlm.nih.gov/29316133/
+2018/03/21 00:00,2018 Mar 21,Simonis FD,Potentially modifiable respiratory variables contributing to outcome in ICU patients without ARDS: a secondary analysis of PRoVENT.,29564726,https://pubmed.ncbi.nlm.nih.gov/29564726/
 2018/02/01 00:00,2018 Feb,Gunasekaran B,Assessment of potential opioid toxicity and response to naloxone by rapid response teams at an urban Melbourne hospital.,29415364,https://pubmed.ncbi.nlm.nih.gov/29415364/
 2017/11/01 00:00,2017 Nov,Juschten J,Nebulized anticoagulants in lung injury in critically ill patients-an updated systematic review of preclinical and clinical studies.,29264361,https://pubmed.ncbi.nlm.nih.gov/29264361/
 2017/10/03 00:00,2017,Moran JL,Reconsidering lactate as a sepsis risk biomarker.,28972976,https://pubmed.ncbi.nlm.nih.gov/28972976/
 2017/07/01 00:00,2017 Jul,Smith RJ,Use of resuscitation plans at a tertiary Australian hospital: room for improvement.,28422404,https://pubmed.ncbi.nlm.nih.gov/28422404/
 2017/03/01 00:00,2017 Mar,Smith RJ,Rapid response team diagnoses: frequencies and related hospital mortality.,28215135,https://pubmed.ncbi.nlm.nih.gov/28215135/
+2017/01/01 00:00,2017 Jan,Ngu K,Trends and outcomes of chronic kidney disease in intensive care: a 5-year study.,27549908,https://pubmed.ncbi.nlm.nih.gov/27549908/
 2016/12/01 00:00,2016 Dec,Glas GJ,Nebulized heparin for patients under mechanical ventilation: an individual patient data meta-analysis.,27083915,https://pubmed.ncbi.nlm.nih.gov/27083915/
+2016/12/01 00:00,2016 Dec,Altarawneh MM,Salbutamol effects on systemic potassium dynamics during and following intense continuous and intermittent exercise.,27771799,https://pubmed.ncbi.nlm.nih.gov/27771799/
+2016/11/01 00:00,2016 Nov,Neto AS,"Epidemiological characteristics, practice of ventilation, and clinical outcome in patients at risk of acute respiratory distress syndrome in intensive care units from 16 countries (PRoVENT): an international, multicentre, prospective study.",27717861,https://pubmed.ncbi.nlm.nih.gov/27717861/
+2016/11/01 00:00,2016 Nov,Tobin A,"Family escalation of care: well meaning, but where's the evidence.",27813356,https://pubmed.ncbi.nlm.nih.gov/27813356/
+2016/10/24 00:00,2016,Author et al,"Erratum to: 36th International Symposium on Intensive Care and Emergency Medicine: Brussels, Belgium. 15-18 March 2016.",31268434,https://pubmed.ncbi.nlm.nih.gov/31268434/
 2016/09/01 00:00,2016 Sep,Ghanpur R,Plastic Blood Gas Syringes and Measurement Error in Central Venous Oxygen Saturations.,27058047,https://pubmed.ncbi.nlm.nih.gov/27058047/
 2016/09/01 00:00,2016 Sep,Nota C,The impact of an education program and written guideline on adherence to low tidal volume ventilation.,27604331,https://pubmed.ncbi.nlm.nih.gov/27604331/
+2016/04/20 00:00,2016 Apr 20,Bateman RM,"36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",27885969,https://pubmed.ncbi.nlm.nih.gov/27885969/
+2016/04/01 00:00,2016 Apr,Le Guen M,Epidemiology of in-hospital mortality in acute patients admitted to a tertiary-level hospital.,26841313,https://pubmed.ncbi.nlm.nih.gov/26841313/
 2016/03/01 00:00,2016 Mar,Gabriel LE,Insurance status and mortality in critically ill patients.,26947415,https://pubmed.ncbi.nlm.nih.gov/26947415/
 2016/01/01 00:00,2016 Jan,Dixon B,A trial of nebulised heparin to limit lung injury following cardiac surgery.,26673586,https://pubmed.ncbi.nlm.nih.gov/26673586/
+2016/01/01 00:00,2016 Jan,Carlisle JB,The anaesthetist and peri-operative medicine: migration and evolution.,26620140,https://pubmed.ncbi.nlm.nih.gov/26620140/
 2015/11/01 00:00,2015 Nov,Mok K,"Changing clinical guidelines from delayed to early aperient administration for enterally fed intensive care patients was associated with increased diarrhoea: a before-and-after, intention-to-treat evaluation.",25773579,https://pubmed.ncbi.nlm.nih.gov/25773579/
+2015/09/01 00:00,2015 Sep,Dyett JF,Prospective observational study of emergency airway management in the critical care environment of a tertiary hospital in Melbourne.,26310407,https://pubmed.ncbi.nlm.nih.gov/26310407/
 2015/09/01 00:00,2015 Sep,Iwashyna TJ,Towards defining persistent critical illness and other varieties of chronic critical illness.,26282262,https://pubmed.ncbi.nlm.nih.gov/26282262/
 2015/08/01 00:00,2015 Aug,Smith RJ,The duration of hospitalization before review by the rapid response team: A retrospective cohort study.,25981444,https://pubmed.ncbi.nlm.nih.gov/25981444/
 2015/06/01 00:00,2015 Jun,Santamaria JD,Do we practise low tidal-volume ventilation in the intensive care unit? a 14-year audit.,26017128,https://pubmed.ncbi.nlm.nih.gov/26017128/
 2015/05/01 00:00,2015 May 1,Santamaria JD,"The timing of discharge from the intensive care unit and subsequent mortality. A prospective, multicenter study.",25730675,https://pubmed.ncbi.nlm.nih.gov/25730675/
 2015/04/13 00:00,2015 Apr 13,Suzuki S,Paracetamol therapy and outcome of critically ill patients: a multicenter retrospective observational study.,25879463,https://pubmed.ncbi.nlm.nih.gov/25879463/
+2015/03/01 00:00,2015 Mar,Le Guen MP,"Intensive care unit admission in patients following rapid response team activation: call factors, patient characteristics and hospital outcomes.",25735687,https://pubmed.ncbi.nlm.nih.gov/25735687/
+2015/02/01 00:00,2015 Feb,Yong SA,Heatwave hyponatraemia: a case series at a single Victorian tertiary centre during January 2014.,25650535,https://pubmed.ncbi.nlm.nih.gov/25650535/
+2014/12/01 00:00,2014 Dec,Ghani M,Computed tomography pulmonary angiogram as a result of medical emergency team calls: a 5-year retrospective audit.,25437222,https://pubmed.ncbi.nlm.nih.gov/25437222/
 2014/09/01 00:00,2014 Sep,Duke GJ,"ANZROD, COPE 4 and PIM 3: caveat emptor.",25161015,https://pubmed.ncbi.nlm.nih.gov/25161015/
 2014/06/01 00:00,2014 Jun,Smith RJ,The mortality associated with review by the rapid response team for non-arrest deterioration: a cohort study of acute hospital adult patients.,24888282,https://pubmed.ncbi.nlm.nih.gov/24888282/
 2014/04/01 00:00,2014 Apr,Dixon B,The operating surgeon is an independent predictor of chest tube drainage following cardiac surgery.,24439890,https://pubmed.ncbi.nlm.nih.gov/24439890/
@@ -81,14 +106,23 @@ sortpubdate,pubdate,first_author,title,pmid,pubmed_url
 2010/05/01 00:00,2010 May,Wall CJ,Extracorporeal membrane oxygenation: an unusual cause of acute limb compartment syndrome.,20514969,https://pubmed.ncbi.nlm.nih.gov/20514969/
 2010/02/01 00:00,2010 Feb,Santamaria J,Changing cardiac arrest and hospital mortality rates through a medical emergency team takes time and constant review.,20029341,https://pubmed.ncbi.nlm.nih.gov/20029341/
 2010/01/01 00:00,2010 Jan,Moore EM,Preoperative estimated glomerular filtration rate and RIFLE-classified postoperative acute kidney injury predict length of stay post-coronary bypass surgery in an Australian setting.,20191786,https://pubmed.ncbi.nlm.nih.gov/20191786/
+2010/01/01 00:00,2010 Jan-Feb,Schey BM,Skin temperature and core-peripheral temperature gradient as markers of hemodynamic status in critically ill patients: a review.,20109984,https://pubmed.ncbi.nlm.nih.gov/20109984/
+2009/02/01 00:00,2009 Feb,Schey BM,Skin temperature as a noninvasive marker of haemodynamic and perfusion status in adult cardiac surgical patients: an observational study.,18621531,https://pubmed.ncbi.nlm.nih.gov/18621531/
+2008/09/01 00:00,2008 Sep,Condon EM,Haemophilus influenzae associated Guillain Barré Syndrome with thrombocytopenic purpura and hyperthermia.,18853594,https://pubmed.ncbi.nlm.nih.gov/18853594/
 2008/07/01 00:00,2008 Jul,Dixon B,Elevated pulmonary dead space and coagulation abnormalities suggest lung microvascular thrombosis in patients undergoing cardiac surgery.,18301879,https://pubmed.ncbi.nlm.nih.gov/18301879/
 2008/01/01 00:00,2008,Dixon B,A phase 1 trial of nebulised heparin in acute lung injury.,18460218,https://pubmed.ncbi.nlm.nih.gov/18460218/
+2007/11/01 00:00,2007 Nov,Groves N,High flow nasal oxygen generates positive airway pressure in adult volunteers.,17931878,https://pubmed.ncbi.nlm.nih.gov/17931878/
 2007/05/16 00:00,2007 May 16,Jelinek M,Metamorphosis: the natural history of coronary heart disease. Sudden death is common. Unexpected death is not.,16904770,https://pubmed.ncbi.nlm.nih.gov/16904770/
 2006/10/01 00:00,2006 Oct,Piercy M,Unplanned admission to the intensive care unit in postoperative patients--an indicator of quality of anaesthetic care?,17061633,https://pubmed.ncbi.nlm.nih.gov/17061633/
 2006/04/03 00:00,2006 Apr 3,Tobin AE,After-hours discharges from intensive care are associated with increased mortality.,16584367,https://pubmed.ncbi.nlm.nih.gov/16584367/
 2006/03/01 00:00,2006 Mar,Tobin AE,Mechanisms by which systemic salbutamol increases ventilation.,16548904,https://pubmed.ncbi.nlm.nih.gov/16548904/
 2005/07/01 00:00,2005 Jul,Dixon B,Coagulation activation and organ dysfunction following cardiac surgery.,16002940,https://pubmed.ncbi.nlm.nih.gov/16002940/
+2005/06/01 00:00,2005 Jun,Tobin A,Intravenous salbutamol: too much of a good thing?,16548805,https://pubmed.ncbi.nlm.nih.gov/16548805/
 2004/10/01 00:00,2004 Oct,Dixon B,The role of microvascular thrombosis in sepsis.,15535483,https://pubmed.ncbi.nlm.nih.gov/15535483/
+2003/04/01 00:00,2003 Apr,Dixon B,Plasminogen activator inhibitor activity is associated with raised lactate levels after cardiac surgery with cardiopulmonary bypass.,12682472,https://pubmed.ncbi.nlm.nih.gov/12682472/
 2001/06/01 00:00,2001 Jun,Scott DA,Blood loss in elective coronary artery surgery: a comparison of centrifugal versus roller pump heads during cardiopulmonary bypass.,11426362,https://pubmed.ncbi.nlm.nih.gov/11426362/
 2000/06/01 00:00,2000 Jun,Hodgson C,An investigation of the early effects of manual lung hyperinflation in critically ill patients.,10853205,https://pubmed.ncbi.nlm.nih.gov/10853205/
+1999/10/01 00:00,1999 Oct,Reeves JH,A controlled trial of low-molecular-weight heparin (dalteparin) versus unfractionated heparin as anticoagulant during continuous venovenous hemodialysis with filtration.,10548211,https://pubmed.ncbi.nlm.nih.gov/10548211/
 1999/06/01 00:00,1999 Jun,Dixon B,Proximal small bowel infarction associated with portal venous gas.,16603002,https://pubmed.ncbi.nlm.nih.gov/16603002/
+1999/04/01 00:00,1999 Apr,Tobin A,Prone ventilation--it's time.,10212720,https://pubmed.ncbi.nlm.nih.gov/10212720/
+1991/12/02 00:00,1991 Dec 2-16,Santamaria JD,Optimisation of respiratory function.,1745186,https://pubmed.ncbi.nlm.nih.gov/1745186/

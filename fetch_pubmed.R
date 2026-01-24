@@ -19,22 +19,24 @@ Sys.setenv(ENTREZ_KEY   = "")  # optional; can leave blank
 ## 2. PubMed query
 ##    Logic: (Affiliation block) OR (Author list)
 ## ---------------------------------------------------------------------
-query <- '
+query <- "
 (
   (
-    "St Vincent\'s Hospital"[Affiliation] OR
-    "St Vincents Hospital"[Affiliation] OR
-    "St Vincents"[Affiliation] OR
-    "St Vincent\'s"[Affiliation]
+    \"St Vincent's Hospital\"[Affiliation] OR
+    \"St Vincents Hospital\"[Affiliation] OR
+    \"St Vincent's\"[Affiliation] OR
+    \"St Vincents\"[Affiliation] OR
+    \"St Vincent's Hospital, Melbourne\"[Affiliation] OR
+    \"St Vincents Hospital, Melbourne\"[Affiliation] OR
+    \"St Vincent's Hospital Melbourne\"[Affiliation] OR
+    \"St Vincents Hospital Melbourne\"[Affiliation] OR
+    \"St Vincent Hospital, Melbourne\"[Affiliation]
   )
   AND
   (
-    Melbourne[Affiliation]
-  )
-  AND
-  (
-    "Intensive Care"[Affiliation] OR
-    "Department of Critical Care"[Affiliation] OR
+    \"Intensive Care\"[Affiliation] OR
+    \"Department of Critical Care\"[Affiliation] OR
+    \"Department Critical Care\"[Affiliation] OR
     ICU[Affiliation]
   )
 )
@@ -42,16 +44,25 @@ AND
 (
   Brown A[Author] OR
   Walker H[Author] OR
+  Williams D[Author] OR
+  Tobin A[Author] OR
+  Ghani M[Author] OR
   Haydon T[Author] OR
   Dixon B[Author] OR
   Santamaria J[Author] OR
+  Santamaria JD[Author] OR
   Hurune P[Author] OR
   Sakurai K[Author] OR
   Mora JC[Author] OR
   Musca S[Author] OR
-  "O\'Brien Y"[Author]
+  O'Brien Y[Author] OR
+  Smit C[Author] OR
+  Holmes J[Author] OR
+  Luk V[Author] OR
+  Reid D[Author] OR
+  Smith R[Author]
 )
-'
+"
 
 cat("PubMed query:\n", query, "\n\n")
 
@@ -104,7 +115,8 @@ extract_simple <- function(s) {
 }
 
 df <- bind_rows(lapply(as.list(summ), extract_simple)) %>%
-  arrange(desc(sortpubdate), title)
+  arrange(desc(sortpubdate), title) %>%
+  mutate(pmid = as.character(pmid)) 
 
 ## At this point df is your “current run” list:
 ## sortpubdate, pubdate, first_author, title, pmid, pubmed_url
@@ -118,7 +130,8 @@ dir.create("data", showWarnings = FALSE)
 csv_path <- "data/pubs_all.csv"
 
 if (file.exists(csv_path)) {
-  old <- read_csv(csv_path, show_col_types = FALSE)
+  old <- read_csv(csv_path, show_col_types = FALSE) %>%
+    mutate(pmid = as.character(pmid))
   combined <- old %>%
     bind_rows(df) %>%
     arrange(desc(sortpubdate), title) %>%
